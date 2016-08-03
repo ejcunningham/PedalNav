@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07296BEA1D51AD7E002EDB46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07296BE91D51AD7E002EDB46 /* AppDelegate.swift */; };
+		07296BEC1D51AD7E002EDB46 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07296BEB1D51AD7E002EDB46 /* FirstViewController.swift */; };
+		07296BEE1D51AD7E002EDB46 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07296BED1D51AD7E002EDB46 /* SecondViewController.swift */; };
+		07296BF11D51AD7E002EDB46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07296BEF1D51AD7E002EDB46 /* Main.storyboard */; };
+		07296BF31D51AD7E002EDB46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07296BF21D51AD7E002EDB46 /* Assets.xcassets */; };
+		07296BF61D51AD7E002EDB46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07296BF41D51AD7E002EDB46 /* LaunchScreen.storyboard */; };
+		07296C011D51AD7E002EDB46 /* PedalNavTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07296C001D51AD7E002EDB46 /* PedalNavTests.swift */; };
+		07296C0C1D51AD7E002EDB46 /* PedalNavUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07296C0B1D51AD7E002EDB46 /* PedalNavUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07296BFD1D51AD7E002EDB46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07296BDE1D51AD7E002EDB46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07296BE51D51AD7E002EDB46;
+			remoteInfo = PedalNav;
+		};
+		07296C081D51AD7E002EDB46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07296BDE1D51AD7E002EDB46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07296BE51D51AD7E002EDB46;
+			remoteInfo = PedalNav;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07296BE61D51AD7E002EDB46 /* PedalNav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PedalNav.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07296BE91D51AD7E002EDB46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		07296BEB1D51AD7E002EDB46 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		07296BED1D51AD7E002EDB46 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		07296BF01D51AD7E002EDB46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07296BF21D51AD7E002EDB46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07296BF51D51AD7E002EDB46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07296BF71D51AD7E002EDB46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07296BFC1D51AD7E002EDB46 /* PedalNavTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PedalNavTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07296C001D51AD7E002EDB46 /* PedalNavTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedalNavTests.swift; sourceTree = "<group>"; };
+		07296C021D51AD7E002EDB46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07296C071D51AD7E002EDB46 /* PedalNavUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PedalNavUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07296C0B1D51AD7E002EDB46 /* PedalNavUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedalNavUITests.swift; sourceTree = "<group>"; };
+		07296C0D1D51AD7E002EDB46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07296BE31D51AD7E002EDB46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07296BF91D51AD7E002EDB46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07296C041D51AD7E002EDB46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07296BDD1D51AD7E002EDB46 = {
+			isa = PBXGroup;
+			children = (
+				07296BE81D51AD7E002EDB46 /* PedalNav */,
+				07296BFF1D51AD7E002EDB46 /* PedalNavTests */,
+				07296C0A1D51AD7E002EDB46 /* PedalNavUITests */,
+				07296BE71D51AD7E002EDB46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07296BE71D51AD7E002EDB46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07296BE61D51AD7E002EDB46 /* PedalNav.app */,
+				07296BFC1D51AD7E002EDB46 /* PedalNavTests.xctest */,
+				07296C071D51AD7E002EDB46 /* PedalNavUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07296BE81D51AD7E002EDB46 /* PedalNav */ = {
+			isa = PBXGroup;
+			children = (
+				07296BE91D51AD7E002EDB46 /* AppDelegate.swift */,
+				07296BEB1D51AD7E002EDB46 /* FirstViewController.swift */,
+				07296BED1D51AD7E002EDB46 /* SecondViewController.swift */,
+				07296BEF1D51AD7E002EDB46 /* Main.storyboard */,
+				07296BF21D51AD7E002EDB46 /* Assets.xcassets */,
+				07296BF41D51AD7E002EDB46 /* LaunchScreen.storyboard */,
+				07296BF71D51AD7E002EDB46 /* Info.plist */,
+			);
+			path = PedalNav;
+			sourceTree = "<group>";
+		};
+		07296BFF1D51AD7E002EDB46 /* PedalNavTests */ = {
+			isa = PBXGroup;
+			children = (
+				07296C001D51AD7E002EDB46 /* PedalNavTests.swift */,
+				07296C021D51AD7E002EDB46 /* Info.plist */,
+			);
+			path = PedalNavTests;
+			sourceTree = "<group>";
+		};
+		07296C0A1D51AD7E002EDB46 /* PedalNavUITests */ = {
+			isa = PBXGroup;
+			children = (
+				07296C0B1D51AD7E002EDB46 /* PedalNavUITests.swift */,
+				07296C0D1D51AD7E002EDB46 /* Info.plist */,
+			);
+			path = PedalNavUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07296BE51D51AD7E002EDB46 /* PedalNav */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07296C101D51AD7E002EDB46 /* Build configuration list for PBXNativeTarget "PedalNav" */;
+			buildPhases = (
+				07296BE21D51AD7E002EDB46 /* Sources */,
+				07296BE31D51AD7E002EDB46 /* Frameworks */,
+				07296BE41D51AD7E002EDB46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PedalNav;
+			productName = PedalNav;
+			productReference = 07296BE61D51AD7E002EDB46 /* PedalNav.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07296BFB1D51AD7E002EDB46 /* PedalNavTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07296C131D51AD7E002EDB46 /* Build configuration list for PBXNativeTarget "PedalNavTests" */;
+			buildPhases = (
+				07296BF81D51AD7E002EDB46 /* Sources */,
+				07296BF91D51AD7E002EDB46 /* Frameworks */,
+				07296BFA1D51AD7E002EDB46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07296BFE1D51AD7E002EDB46 /* PBXTargetDependency */,
+			);
+			name = PedalNavTests;
+			productName = PedalNavTests;
+			productReference = 07296BFC1D51AD7E002EDB46 /* PedalNavTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		07296C061D51AD7E002EDB46 /* PedalNavUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07296C161D51AD7E002EDB46 /* Build configuration list for PBXNativeTarget "PedalNavUITests" */;
+			buildPhases = (
+				07296C031D51AD7E002EDB46 /* Sources */,
+				07296C041D51AD7E002EDB46 /* Frameworks */,
+				07296C051D51AD7E002EDB46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07296C091D51AD7E002EDB46 /* PBXTargetDependency */,
+			);
+			name = PedalNavUITests;
+			productName = PedalNavUITests;
+			productReference = 07296C071D51AD7E002EDB46 /* PedalNavUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07296BDE1D51AD7E002EDB46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Eric Cunningham";
+				TargetAttributes = {
+					07296BE51D51AD7E002EDB46 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					07296BFB1D51AD7E002EDB46 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 07296BE51D51AD7E002EDB46;
+					};
+					07296C061D51AD7E002EDB46 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 07296BE51D51AD7E002EDB46;
+					};
+				};
+			};
+			buildConfigurationList = 07296BE11D51AD7E002EDB46 /* Build configuration list for PBXProject "PedalNav" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07296BDD1D51AD7E002EDB46;
+			productRefGroup = 07296BE71D51AD7E002EDB46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07296BE51D51AD7E002EDB46 /* PedalNav */,
+				07296BFB1D51AD7E002EDB46 /* PedalNavTests */,
+				07296C061D51AD7E002EDB46 /* PedalNavUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07296BE41D51AD7E002EDB46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07296BF61D51AD7E002EDB46 /* LaunchScreen.storyboard in Resources */,
+				07296BF31D51AD7E002EDB46 /* Assets.xcassets in Resources */,
+				07296BF11D51AD7E002EDB46 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07296BFA1D51AD7E002EDB46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07296C051D51AD7E002EDB46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07296BE21D51AD7E002EDB46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07296BEE1D51AD7E002EDB46 /* SecondViewController.swift in Sources */,
+				07296BEA1D51AD7E002EDB46 /* AppDelegate.swift in Sources */,
+				07296BEC1D51AD7E002EDB46 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07296BF81D51AD7E002EDB46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07296C011D51AD7E002EDB46 /* PedalNavTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07296C031D51AD7E002EDB46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07296C0C1D51AD7E002EDB46 /* PedalNavUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07296BFE1D51AD7E002EDB46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07296BE51D51AD7E002EDB46 /* PedalNav */;
+			targetProxy = 07296BFD1D51AD7E002EDB46 /* PBXContainerItemProxy */;
+		};
+		07296C091D51AD7E002EDB46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07296BE51D51AD7E002EDB46 /* PedalNav */;
+			targetProxy = 07296C081D51AD7E002EDB46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07296BEF1D51AD7E002EDB46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07296BF01D51AD7E002EDB46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07296BF41D51AD7E002EDB46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07296BF51D51AD7E002EDB46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07296C0E1D51AD7E002EDB46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		07296C0F1D51AD7E002EDB46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07296C111D51AD7E002EDB46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PedalNav/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abd.PedalNav;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		07296C121D51AD7E002EDB46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PedalNav/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abd.PedalNav;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		07296C141D51AD7E002EDB46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PedalNavTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abd.PedalNavTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PedalNav.app/PedalNav";
+			};
+			name = Debug;
+		};
+		07296C151D51AD7E002EDB46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PedalNavTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abd.PedalNavTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PedalNav.app/PedalNav";
+			};
+			name = Release;
+		};
+		07296C171D51AD7E002EDB46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PedalNavUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abd.PedalNavUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PedalNav;
+			};
+			name = Debug;
+		};
+		07296C181D51AD7E002EDB46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PedalNavUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abd.PedalNavUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PedalNav;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07296BE11D51AD7E002EDB46 /* Build configuration list for PBXProject "PedalNav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07296C0E1D51AD7E002EDB46 /* Debug */,
+				07296C0F1D51AD7E002EDB46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07296C101D51AD7E002EDB46 /* Build configuration list for PBXNativeTarget "PedalNav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07296C111D51AD7E002EDB46 /* Debug */,
+				07296C121D51AD7E002EDB46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		07296C131D51AD7E002EDB46 /* Build configuration list for PBXNativeTarget "PedalNavTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07296C141D51AD7E002EDB46 /* Debug */,
+				07296C151D51AD7E002EDB46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		07296C161D51AD7E002EDB46 /* Build configuration list for PBXNativeTarget "PedalNavUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07296C171D51AD7E002EDB46 /* Debug */,
+				07296C181D51AD7E002EDB46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07296BDE1D51AD7E002EDB46 /* Project object */;
+}
