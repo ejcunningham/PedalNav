@@ -7,9 +7,12 @@
 //
 
 import UIKit
+import Mapbox
 
 class SecondViewController: UIViewController {
 
+    @IBOutlet var mapView: MGLMapView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
